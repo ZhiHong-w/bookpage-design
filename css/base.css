@@ -1,0 +1,37 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*background-color: white;*/
+    color: black;
+    font-size: 12px;
+}
+ul{
+    list-style: none;
+}
+.triangle-down{
+    border: 5px solid #686868;
+    border-color: #686868 transparent transparent transparent;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+}
+.triangle-up:before,.triangle-up:after{
+    content: "";
+    border: 8px solid #f1f1f1;
+    border-color: transparent transparent #f1f1f1 transparent;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -15px;
+    left: 80px;
+    display: inline-block;
+}
+.triangle-up:after{
+    border-color: transparent transparent #ffffff transparent;
+    top: -14px;
+}
+.information:after{
+    /*clear: both;*/
+    /*content: "";*/
+}
+/*#ffffff*/
